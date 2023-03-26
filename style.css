@@ -99,7 +99,7 @@ nav ul li:hover
     flex-direction: column;
     justify-content: left;
     align-content: center;
-    line-height: 12vh;
+    line-height: min(12vw, 12vh);
     margin: 0 15% 0 ;
     font-size: 1.5rem;
 }
@@ -125,9 +125,9 @@ nav ul li:hover
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(330px,1fr));
     padding: 2% 7%;
-    grid-gap: 100px;
+    grid-gap: 150px;
 }
 .card{
     background-color: #1c1b29;
@@ -328,5 +328,9 @@ img{
     #section_3
     {
         flex-direction: column;
+    }
+    .main
+    {
+        margin: 0 7%;
     }
 }
