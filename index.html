@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ok Santé</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0c8396da42.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <main>
+        <div class="nav_wrapper">
+            <nav>
+                <div class="logo"><a href="#section_1">
+                    OK <span class="purple big">Santé</span></a>
+                <br>
+                    <div class="smaller">
+                        <span class="purple">O</span>sthéopathie
+                        <span class="purple">K</span>inésithérapie
+                        <span class="purple">S</span>anté
+                    </div>
+                </div>
+                <div class="navlinks">
+                    <ul>
+                        <li><a href="#section_2">Nos praticiens</a></li>
+                        <li><a href="#section_3">Contact</a></li>
+                        <li><a href="https://www.doctolib.fr/osteopathe/comblot/damien-isambert-comblot/booking/availabilities?motiveIds[]=1685892&placeId=practice-109997&specialityId=10&telehealth=false" target="_blank" style="text-decoration: none;">Prendre rendez-vous</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars fa-2xl menuh"></i>
+            </nav>
+        </div>
+        
+        <section class="main">
+            <h1 class="title_1">Le possible est déjà fait. 
+                L'impossible est en court.
+            </h1> 
+            <h1 class="title_2">
+                Pour les miracles,
+                <span class="gradient">prévoir un délai.</span>
+            </h1>
+        </section>
+    </main>
+
+    <section id="section_2">
+        <h1 class="title_3" style="text-decoration: overline;">L'équipe d'OK Santé : chacun son camp !</h1>
+
+        <div class="cards">
+            <div class="card card1">
+                <div class="container">
+                    <img src="damien.webp" alt="Damien Isambert">
+                </div>
+                <div class="details">
+                    <h3>Damien Isambert</h3>
+                    <p>Fondateur du cabinet OK Santé, il n'exerce plus qu'uniquement en osteopathie (D.O.)</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="container">
+                    <img src="emilie.jpg" alt="emilie">
+                </div>
+                <div class="details">
+                    <h3>Emilie Rivière</h3>
+                    <p>Masseur-Kinésithérapeute D.E.<br>Rééducation motrice du bébé - Michèle FORESTIER<br>Rééducation des Bronchiolites et asthme du nourrisson - Michelle LECLERC<br>Rééducation Périnéo-sphincterienne (Femme) - EIRPP</p>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="container">
+                    <img src="remi.jpg" alt="rmei">
+                </div>
+                <div class="details">
+                    <h3>Rémi Guillin</h3>
+                    <p>Masseur-Kinésithérapeute D.E.</p>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class="container">
+                    <img src="augustin.png" alt="Damien Isambert">
+                </div>
+                <div class="details">
+                    <h3>Augustin Boyer</h3>
+                    <p>Masseur-Kinésithérapeute D.E.<br>Formation Kiné SPORT</p>
+                </div>
+            </div>
+            <div class="card card5">
+                <div class="container">
+                    <img src="sebastien.jpg" alt="emilie">
+                </div>
+                <div class="details">
+                    <h3>Sébastien Boisnard</h3>
+                    <p>Masseur-Kinésithérapeute D.E.</p>
+                </div>
+            </div>
+            <div class="card card6">
+                <div class="container">
+                    <img src="emilie2.jpg" alt="rmei">
+                </div>
+                <div class="details">
+                    <h3>Emilie Isambert</h3>
+                    <p>Endermologie - LPG - Cellu M6<br>Pressothérapie<br>La Madré del cabinete</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section_3">
+        <div class="para">
+            <h1 class=title_4 style="text-decoration: overline;">Pour venir dans ce cadre si paisible...</h1>
+            <a href="https://www.facebook.com/OKSante61/" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a> <br>
+            <p style="font-size: larger;">02.33.85.49.87 <br>oksante61@gmail.com <br>19 rue Montcacune - 61400 Mortagne au Perche</p>
+        </div>
+        
+
+        <div class="slider-container slider-1">
+            <div class="slider">
+                <img src="cabinet_1.jpg" alt="cabinet_1">
+                <img src="cabinet_2.jpeg" alt="cabinet_2">
+                <img src="cabinet_3.jpeg" alt="cabinet_3">
+                <img src="cabinet_2.jpeg" alt="cabinet_1">
+                <img src="cabinet_1.jpg" alt="cabinet_1">
+
+            </div>
+        </div>
+    </section>
+    
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menuh")
+    const navLinks = document.querySelector(".navlinks")
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
