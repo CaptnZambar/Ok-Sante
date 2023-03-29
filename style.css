@@ -5,6 +5,7 @@
   padding: 0;
   color: white;
   box-sizing: border-box;
+  /* border: #ffffff 2px solid; */
 }
 html {
   scroll-behavior: smooth;
@@ -87,17 +88,15 @@ nav ul li:hover {
 #section_2 {
   display: grid;
   place-items: center center;
-  font-family: "Poppins", sans-serif;
   padding: 10vh 0;
 }
 .title_3 {
   font-size: 2rem;
-  padding: 5vh 0 10vh;
-  text-align: center;
+  padding: 5vh 7% 10vh;
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   padding: 2% 7%;
   grid-gap: 150px;
   z-index: -2;
@@ -108,7 +107,6 @@ nav ul li:hover {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 }
 .container {
-  position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 img {
@@ -233,7 +231,6 @@ img {
   .smaller {
     font-size: 0.8rem;
   }
-
   .nav_wrapper {
     padding: 0;
   }
